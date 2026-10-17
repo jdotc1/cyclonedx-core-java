@@ -1,3 +1,13 @@
+## Java building blocks for software bills of materials
+
+This is a development fork of [CycloneDX Core for Java](https://github.com/CycloneDX/cyclonedx-core-java). The upstream library provides a software bill of materials model and utilities for creating, parsing, and validating CycloneDX documents. It is useful for developers adding SBOM import, export, or validation to Java build and supply-chain inventory workflows.
+
+**Contribution to review:** [PR #957](https://github.com/CycloneDX/cyclonedx-core-java/pull/957) proposes recognizing JSON and XML BOMs that begin with whitespace. The change focuses on format detection; the pull request contains the proposed implementation and test scope.
+
+Use the [official API documentation](https://cyclonedx.github.io/cyclonedx-core-java/) and Maven coordinates below to get started. Match the library version to the schema your receiving system accepts. The [branch comparison](https://github.com/CycloneDX/cyclonedx-core-java/compare/master...jdotc1:master) distinguishes this fork's default branch from upstream.
+
+---
+
 [![Build Status](https://github.com/CycloneDX/cyclonedx-core-java/actions/workflows/maven.yml/badge.svg)](https://github.com/CycloneDX/cyclonedx-core-java/actions/workflows/maven.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/org.cyclonedx/cyclonedx-core-java?label=Maven%20Central)](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java)
 [![License](https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg)][License]
